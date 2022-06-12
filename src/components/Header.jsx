@@ -1,14 +1,11 @@
 import React from 'react';
 import styled from 'styled-components'
-// import image from "../img/header-index3.jpg"
 
 const Headerstyle = styled.header`
-/* background-image: url("../img/header-index3.jpg"), rgba(255,255,255, 0.5); */
 background-image: url('/img/header-checkout.jpg');
 background-size: 100%;
 background-repeat: no-repeat;
-background-position-y: 57%;
-    
+background-position-y: 57%;    
 padding: 1.5rem;
 display: flex;
 align-items:center;
@@ -30,25 +27,21 @@ align-items:center;
 `
 
 
-
 const Header =()=> {
-
   return(
-    <>
-    
+    <> 
     <Headerstyle>
         <img src={require('../assets/logo.svg').default} alt="sinus logo"/>
         <div>
             <h1>SINUS</h1>
             <p>SKATEBOARDS スケートボード</p>
         </div>
-    </Headerstyle>
-    
-    </>
-    
+    </Headerstyle>  
+    </>   
   );
     }
   
+    
   export default Header;
 
 

@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components'
 import Header from '../components/Header';
 import Nav from '../components/Nav';
+import Footer from '../components/Footer';
 
 
 const HomeStyle =styled.section`
@@ -22,6 +23,7 @@ const HomeStyle =styled.section`
       margin-top: 3.3rem;
       font-weight: 700;
     }
+    
   
 ` 
 
@@ -32,14 +34,12 @@ const Home =()=> {
     <>
     <Header/>
     <Nav/>
-
       <HomeStyle>
           <div class="text">
             <p>スケートボード</p>
           </div>
       </HomeStyle>
-    <h1>HOME</h1>
-    
+    <Footer/>
     </>
     
   );
